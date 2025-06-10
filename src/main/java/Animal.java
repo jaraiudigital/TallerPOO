@@ -8,7 +8,7 @@ public class Animal {
         this.tipo = tipo.toLowerCase();
         this.genero = genero.toLowerCase();
     }
-
+// se crean los métodos  getter y setter de la clase Animal
     public String getNombre() { return nombre; }
     public String getTipo() { return tipo; }
     public String getGenero() { return genero; }
