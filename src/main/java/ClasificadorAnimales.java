@@ -27,4 +27,12 @@ public class ClasificadorAnimales {
 
         mostrarClasificacion();
     }
-
+// se crea el metodo mostrarClasificacion que muestra la clasificación de los animales por tipo
+    private void mostrarClasificacion() {
+        System.out.println("\n--- Resultado de clasificación ---");
+        clasificacion.forEach((tipo, lista) -> {
+            System.out.println(tipo.substring(0, 1).toUpperCase() + tipo.substring(1) + ":");
+            lista.forEach(a -> System.out.println("   " + a.getNombre()));
+        });
+    }
+}
