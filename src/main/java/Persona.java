@@ -15,3 +15,13 @@ public class Persona {
         this.sueldoHora = sueldoHora;
         this.cargo = cargo.toLowerCase();
     }
+    // se crean los métodos getter de la clase Persona
+    public String getNombre() { return nombre; }
+    public String getApellido() { return apellido; }
+    public int getEdad() { return edad; }
+    public String getGenero() { return genero; }
+    public double getSueldoHora() { return sueldoHora; }
+    public String getCargo() { return cargo; }
+
+
+}
